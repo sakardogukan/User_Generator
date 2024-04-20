@@ -12,6 +12,15 @@ At the end of the project, following topics are to be covered;
 * React-Deployment
 * React-Bootstrap
 
+------
+
+Notes For Deployment:
+- Packega.json -> "homepage": "https://sakardogukan.github.io/User_Generator",
+- in terminal -> yarn add gh-pages
+- Packega.json -> "scripts" ->
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+- in terminal -> yarn run build
 -----
 
 ### Project Skeleton:
