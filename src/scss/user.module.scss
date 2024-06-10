@@ -1,0 +1,14 @@
+span {
+    font-weight: bolder;
+}
+@media screen and (max-width: 1200px) {
+    .specialTextUser {
+        font-size: 1.3rem;
+        word-wrap: break-word;
+        & img {
+            display: flex;
+            margin: auto;
+            margin-bottom: 50px;
+        }
+    }
+}
