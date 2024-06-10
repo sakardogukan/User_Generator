@@ -28,28 +28,40 @@ const Header = (hData) => {
               onMouseOver={() => {
                 setVisibleDob(true)
               }}
-              onMouseLeave={() => setVisibleDob(false)}
+              onMouseLeave={() => {
+                setVisibleDob(false)
+              }}
+              className={visibleDob && HeaderStyle["iconSize"]}
             />
 
             <IoMailOutline
               onMouseOver={() => {
                 setVisibleMail(true)
               }}
-              onMouseLeave={() => setVisibleMail(false)}
+              onMouseLeave={() => {
+                setVisibleMail(false)
+              }}
+              className={visibleMail && HeaderStyle["iconSize"]}
             />
 
             <FiPhone
               onMouseOver={() => {
                 setVisiblePhone(true)
               }}
-              onMouseLeave={() => setVisiblePhone(false)}
+              onMouseLeave={() => {
+                setVisiblePhone(false)
+              }}
+              className={visiblePhone && HeaderStyle["iconSize"]}
             />
 
             <CiLocationOn
               onMouseOver={() => {
                 setVisibleLocation(true)
               }}
-              onMouseLeave={() => setVisibleLocation(false)}
+              onMouseLeave={() => {
+                setVisibleLocation(false)
+              }}
+              className={visibleLocation && HeaderStyle["iconSize"]}
             />
           </header>
         </Col>
