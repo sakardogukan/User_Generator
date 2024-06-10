@@ -1,7 +1,7 @@
 ## User GeneratorPage Project
 
 ## Description
-This project is a react app
+This project was designed with React. It generates random user information. Fetch API structure is used in useEffect Hook.
 
 ## Objective
 At the end of the project, following topics are to be covered;
@@ -9,14 +9,14 @@ At the end of the project, following topics are to be covered;
 * CSS
 * JavaScript
 * React
+* React-Bootstrap / Bootstrap
 * React-Deployment
-* React-Bootstrap
 
 ------
 
 Notes For Deployment:
 - Packega.json -> "homepage": "https://sakardogukan.github.io/User_Generator",
-- in terminal -> yarn add gh-pages
+- in terminal   -> yarn add gh-pages
 - Packega.json -> "scripts" ->
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build"
@@ -29,24 +29,30 @@ Notes For Deployment:
     User_Generator (folder)
     |
     |---- public
-            |---- index.html
+    |       |---- index.html
     |---- src
-            |---- compenents
-                    |---- User.jsx
-            |---- App.scss
-            |---- App.js
-            |---- index.css                                   
-            |---- index.js                                   
-            |---- project_view.png
+    |       |---- compenents
+    |       |       |---- Header.jsx
+    |       |       |---- User.jsx
+    |       |---- scss
+    |       |       |---- _reset.scss
+    |       |       |---- _variables.scss
+    |       |       |---- app.scss
+    |       |       |---- header.module.scss
+    |       |       |---- user.module.scss
+    |       |---- App.js
+    |       |---- index.css                                   
+    |       |---- index.js                                   
+    |       |---- project_view.gif
     |---- .gitignore
-    |---- README.md
     |---- package-lock.json
     |---- package.json
+    |---- README.md
     |---- yarn.lock
 ```
 
 ### Project View Images:
 
-![images](./src/project_view.png)
+<img src="./src/project_view.gif" style="width:80%">
 
 > Designed By DOGUKAN © Apr. 2024
