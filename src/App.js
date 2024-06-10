@@ -1,10 +1,10 @@
-import './App.css'
 import User from "./components/User"
+import "../src/scss/app.scss"
 
 function App() {
   return (
     <div>
-      <User/>
+      <User />
     </div>
   )
 }
