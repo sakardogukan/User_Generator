@@ -1,8 +1,8 @@
 import User from "./components/User"
 import "../src/scss/app.scss"
 import NavBar from "./components/NavBar"
-import { useEffect, useState } from "react";
-
+import { useState } from "react";
+import './output.css'
 function App() {
   const [dark,setDark]=useState(false);
   const toogle=()=>{
@@ -12,9 +12,9 @@ function App() {
 
 
   return (
-    <div>
+    <div className={`h-screen flex-col  ${dark?'bg-slate-700':'bg-white'} `}>
       <NavBar toogle={toogle}/>
-      <User theme={dark} />
+      <User dark={dark} />
     </div>
   )
 }
