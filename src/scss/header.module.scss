@@ -1,0 +1,20 @@
+.specialborder {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+.iconSize{
+    font-size: 3rem;
+    color:rgb(181, 19, 119)
+}
+
+@media screen and (max-width: 1200px) {
+    .specialText {
+        font-size: 1.2rem;
+        color: red;
+        word-wrap: break-word;
+    }
+}
